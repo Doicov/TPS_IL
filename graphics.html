@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<style>
+    #realEstateChart {
+  width: 1100px !important; /* Устанавливаем фиксированную ширину */
+  height: 550px !important; /* Устанавливаем фиксированную высоту */
+  margin: 0 auto; /* Центрируем график */
+  display: block; /* Для правильного центрирования */
+  }
+</style>
+<body>
+    <div class="container-nav">
+        <nav class="nav">
+            
+                <div class="nav__row">
+                    <div class="logo">
+                        <img src="./img/icons/logo.svg" alt="Logo">
+                        <span>TPS</span>
+                    </div>
+                    <div class="navigation-list">
+                        <ul>
+                            <li><a href="/index.html" class="active">Home</a></li>
+                            <li><a href="#">About us</a></li>
+                            <li><a href="#">Find space</a></li>
+                            <li><a href="#">Share space</a></li>
+                            <li><a href="#">Promote space</a></li>
+                        </ul>
+                    </div>
+                </div>
+        </nav>
+    </div>
+  
+    
+<div class="container">
+
+    <div class="custom-container">
+        <div class="text-graphic">
+            <h3 class="objects__title title">Молдова, Кишинев <br> Стоимость жилья цена/м²</h3>
+            <p>Цена на недвижимость в Кишиневе.</p>
+            <p>Рост цен так-же продолжается. Новостройки: рост на 8,5%, вторичка: рост на 10,4%.<br>Несмотря на высокие цены, спрос превышает предложение, сделки увеличиваются, объем строительства уменьшается.</p>
+        </div>
+</div>
+
+        <div class="procent">
+        <h3 style="text-align: center;">767 €/м² 
+            <span style="color: green;">124.8% ▲</span>
+        </h3>
+        
+        <canvas class="canvas-graf" id="realEstateChart"></canvas>
+    </div>
+    <div class="buttons-my">
+        <!-- Кнопки переключения -->
+          <button class="interval-button" data-interval="1">1 год</button>
+          <button class="interval-button" data-interval="5">5 лет</button>
+          <button class="interval-button" data-interval="20">20 лет</button> 
+        </div>
+    </div>
+
+
+    <script src="graphics.js"></script>
+
+    
+</body>
+</html>
