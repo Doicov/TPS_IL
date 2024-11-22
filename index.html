@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Real Estate Market Assessment</title>
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container-nav">
+        <nav class="nav">
+            
+                <div class="nav__row">
+                    <div class="logo">
+                        <img src="./img/icons/logo.svg" alt="Logo">
+                        <span>TPS</span>
+                    </div>
+                    <div class="navigation-list">
+                        <ul>
+                            <li><a href="#" class="active">Home</a></li>
+                            <li><a href="#">About us</a></li>
+                            <li><a href="#">Find space</a></li>
+                            <li><a href="#">Share space</a></li>
+                            <li><a href="#">Promote space</a></li>
+                        </ul>
+                    </div>
+                </div>
+        </nav>
+    </div>
+
+    <div class="container">
+    <header class="header">
+            <div class="header__row">
+                <div class="header__text">
+                    <h1 class="header__title">Анализ цен, на рынке недвижимости в Молдове.</h1>
+                </div>
+                <div class="header__img">
+                    <img src="./img/img.jpg" alt="Real estate space">
+                </div>
+            </div>
+    </header>
+
+    <main>
+        <div class="input-form">
+            <section class="input-section">
+                <h1>Введите данные о недвижимости:</h1>
+                <form id="property-form">
+
+                    <select id="location" name="location">
+                      <option value="Кишинев">Кишинев</option>
+                      <option value="бельцы">Бельцы</option>
+                      <option value="Тирасполь">Тирасполь</option>
+                      <option value="Комрат">Комрат</option>
+                    </select>
+                  
+                    <select id="type" name="type">
+                      <option value="Квартиры">Квартиры</option>
+                      <option value="Дома">Дома</option>
+                    </select>
+
+                    <select id="build_type" name="build_type">
+                        <option value="Новостройке">Новострой</option>
+                        <option value="Вторичке">Вторичный</option>
+                    </select>
+
+                    <select id="condition" name="condition">
+                        <option value="евроремонтом">Евроремонт</option>
+                        <option value="белым вариантом">Белый вариант</option>
+                        <option value="жилым состоянием">Жилое состояние</option>
+                    </select>
+
+                    <input type="number" id="area" name="area" placeholder="Площадь">
+
+                    <select id="rooms" name="rooms">
+                        <option value="однокомнатной">1</option>
+                        <option value="двухкомнатной">2</option>
+                        <option value="трехкомнатной">3</option>
+                        <option value="четырехкомнатной">4</option>
+                    </select>
+
+                  </form>
+            </section>
+        </div>
+        <div class="button-form">
+            <button type="button" id="calculate-price">Оценить</button>
+            <button type="button" id="show-options">Показать</button>
+        </div>
+
+            <section class="result-section">
+                <h2>Результат оценки</h2>
+                <div id="result" class="result-card"></div>
+            </section>
+
+    </main>
+
+    <div id="stores-cards-container" class="stores-cards"></div>
+
+
+</div>
+
+<section class="objects">
+    <div class="container container--fluid container--no-padding">
+        <div class="objects__row">
+
+            <!-- objects__img -->
+            <div class="objects__img">
+
+                <div class="img-card img-card--rounder">
+                    <img src="./img/cards/01.jpg" class="img-card__img" alt="Image">
+                </div>
+
+                <!-- img-card -->
+                <div class="img-card">
+                    <img src="./img/cards/02.jpg" class="img-card__img" alt="Image">
+
+                    <div class="img-card__info">
+
+                        <!-- card-info -->
+                        <div class="card-info">
+                            <div class="card-info__icon">
+                                <img src="./img/icons/building.svg" alt="" class="">
+                            </div>
+                            <div class="card-info__text">
+                                <h3 class="card-info__title">Графики за XXI век</h3>
+                                <p>Данные лучших источников</p>
+                            </div>
+                        </div>
+                        <!-- //card-info -->
+
+
+                    </div>
+                </div>
+                <!-- //img-card -->
+
+            </div>
+            <!-- //objects__img -->
+
+            <!-- objects__text -->
+            <div class="objects__text">
+
+                <h2 class="objects__title title">Графики по недвижимости</h2>
+
+                <p>Quid ex eo ortum, tam inportuno tamque crudeli; sin, ut aliquid ex ea quid est et via procedat oratio quaerimus.</p>
+                <p>quid aut ad id omnia referri oporteat, ipsum autem nusquam hoc epicurus in ea commodi consequatur?</p>
+
+                <a href="./graphics.html" class="objects__button button">Посмотреть</a>
+
+            </div>
+            <!-- //objects__text -->
+        </div>
+    </div>
+</section>
+
+    <script src="script.js"></script>
+</body>
+</html>
