@@ -1,0 +1,193 @@
+{
+  "properties": [
+    {
+      "district": "Центр",
+      "location": "Кишинев",
+      "area": 70,
+      "type": "Квартиры",
+      "image": "./img/center.jpg",
+      "name": "ул. Н. Тестемицяну",
+      "price": "115,600",
+      "build_type": "Новостройке",
+      "condition": "евроремонтом",
+      "rooms": "однокомнатной",
+      "rooms_number": "3"
+    },
+    {
+      "district": "Телецентр",
+      "location": "Кишинев",
+      "area": 215,
+      "type": "Дома",
+      "image": "./img/botanica.jpg",
+      "name": "ул. Д. Синкоасей",
+      "price": "410,000",
+      "build_type": "Новостройке",
+      "condition": "евроремонтом",
+      "rooms": "однокомнатной",
+      "rooms_number": "5"
+    },
+    {
+      "district": "Чокана",
+      "location": "Кишинев",
+      "area": 52,
+      "type": "Квартиры",
+      "image": "./img/chocana.jpg",
+      "name": "ул. Мирча Чел Бэтрын",
+      "price": "83,400",
+      "build_type": "Новостройке",
+      "condition": "евроремонтом",
+      "rooms": "однокомнатной",
+      "rooms_number": "1"
+    },
+    {
+      "district": "Центр",
+      "location": "Кишинев",
+      "area": 56,
+      "type": "Квартиры",
+      "image": "./img/center1.jpg",
+      "name": "ул. К. Вырнав",
+      "price": "97,300",
+      "build_type": "Новостройке",
+      "condition": "евроремонтом",
+      "rooms": "однокомнатной",
+      "rooms_number": "2"
+    },
+    {
+      "district": "Рышкановка",
+      "location": "Кишинев",
+      "area": 50,
+      "type": "Квартиры",
+      "image": "./img/rys.jpg",
+      "name": "ул. Богдан Воевод",
+      "price": "72,700",
+      "build_type": "Новостройке",
+      "condition": "евроремонтом",
+      "rooms": "однокомнатной",
+      "rooms_number": "2"
+    },
+    {
+      "district": "Чокана",
+      "location": "Кишинев",
+      "area": 32,
+      "type": "Квартиры",
+      "image": "./img/chocana1.jpg",
+      "name": "ул. Петру Заднипру",
+      "price": "51,500",
+      "build_type": "Новостройке",
+      "condition": "евроремонтом",
+      "rooms": "однокомнатной",
+      "rooms_number": "1"
+    },
+    {
+      "district": "Рышкановка",
+      "location": "Кишинев",
+      "area": 18,
+      "type": "Квартиры",
+      "image": "./img/rys1.jpg",
+      "name": "ул. Флорилор",
+      "price": "25,600",
+      "build_type": "Новостройке",
+      "condition": "евроремонтом",
+      "rooms": "однокомнатной",
+      "rooms_number": "1"
+    },
+
+    {
+      "district": "Буюканы",
+      "location": "Кишинев",
+      "area": 46,
+      "type": "Квартиры",
+      "image": "./img/bucani.jpg",
+      "name": "ул. Василие Лупу",
+      "price": "67,200",
+      "build_type": "Новостройке",
+      "condition": "евроремонтом",
+      "rooms": "однокомнатной",
+      "rooms_number": "2"
+    },
+    {
+      "district": "Ботаника",
+      "location": "Кишинев",
+      "area": 62,
+      "type": "Квартиры",
+      "image": "./img/botanica1.jpg",
+      "name": "шос. Мунчешть",
+      "price": "96,700",
+      "build_type": "Новостройке",
+      "condition": "евроремонтом",
+      "rooms": "однокомнатной",
+      "rooms_number": "2"
+    },
+    {
+      "district": "Центр",
+      "location": "Кишинев",
+      "area": 250,
+      "type": "Дома",
+      "image": "./img/center2.jpg",
+      "name": "ул. Тимиш",
+      "price": "988,000",
+      "build_type": "Новостройке",
+      "condition": "евроремонтом",
+      "rooms": "однокомнатной",
+      "rooms_number": "5"
+    },
+    {
+      "district": "Чокана",
+      "location": "Кишинев",
+      "area": 160,
+      "type": "Дома",
+      "image": "./img/chocana2.jpg",
+      "name": "ул. Буковина",
+      "price": "169,000",
+      "build_type": "Новостройке",
+      "condition": "евроремонтом",
+      "rooms": "однокомнатной",
+      "rooms_number": "4"
+    },
+    {
+      "district": "Рышкановка",
+      "location": "Кишинев",
+      "area": 900,
+      "type": "Дома",
+      "image": "./img/rys2.jpg",
+      "name": "ул. Спартака",
+      "price": "1,350,000",
+      "build_type": "Новостройке",
+      "condition": "евроремонтом",
+      "rooms": "однокомнатной",
+      "rooms_number": "6"
+    },
+    {
+      "district": "Скулянка",
+      "location": "Кишинев",
+      "area": 145,
+      "type": "Дома",
+      "image": "./img/bucani1.jpg",
+      "name": "ул. Гратиешть",
+      "price": "339,000",
+      "build_type": "Новостройке",
+      "condition": "евроремонтом",
+      "rooms": "однокомнатной",
+      "rooms_number": "4"
+    },
+    {
+      "district": "Ботаника",
+      "location": "Кишинев",
+      "area": 290,
+      "type": "Дома",
+      "image": "./img/botanica2.jpg",
+      "name": "ул. Пэшунилор",
+      "price": "270,000",
+      "build_type": "Новостройке",
+      "condition": "евроремонтом",
+      "rooms": "однокомнатной",
+      "rooms_number": "3"
+    }
+  ],
+  "averagePrices": {
+    "Кишинев": {
+      "Квартиры": 1200,
+      "Дома": 1400
+    }
+  }
+}
